@@ -1,9 +1,9 @@
-##FFmpeg Compile Guide
+FFmpeg Compile Guide
 
-###The official website:
+The official website:
 http://trac.ffmpeg.org/wiki/CompilationGuide
 
-###1 overview
+1 overview
 Most source packages installation assumes the following steps:
 
 configuration (with a configure script)
@@ -15,10 +15,10 @@ Install path
 Enviroment variables
 
 
-###2 compile on macOS
+2 compile on macOS
 http://trac.ffmpeg.org/wiki/CompilationGuide/macOS
 
-###3 compile for Android
+3 compile for Android
 http://trac.ffmpeg.org/wiki/CompilationGuide/Android
 
 
