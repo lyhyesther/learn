@@ -1,5 +1,5 @@
 ## Kotlin Summary
-###class and inheritance
+### class and inheritance
 1. constructor
   primary constructor
   secondary constructor
@@ -31,7 +31,7 @@
 
   Even more specifically, if you declare a companion object inside your class, you'll be able to call its members with the same syntax as calling static methods in Java/C#, using only the class name as a qualifier.
   
-  ###declaring properties
+  ### declaring properties
   var 
   val
   
