@@ -1,6 +1,6 @@
-##Spring Guide
+## Spring Guide
 
-###Spring Boot
+### Spring Boot
 features:
 1. Create stand-alone Spring applications
 2. Embed Tomcat, Jetty or Undertow directly (no need to deploy WAR files)
