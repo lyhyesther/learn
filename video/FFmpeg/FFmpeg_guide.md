@@ -703,6 +703,9 @@ INSTALL	libavutil/avconfig.h
 INSTALL	libavutil/ffversion.h
 INSTALL	libavutil/libavutil.pc
 
+4. use command line 
+ffmpeg -h
+
 
 ### 3 compile for Android
 http://trac.ffmpeg.org/wiki/CompilationGuide/Android
