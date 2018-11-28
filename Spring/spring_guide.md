@@ -8,3 +8,6 @@ features:
 4. Automatically configure Spring and 3rd party libraries whenever possible
 5. Provide production-ready features such as metrics, health checks and externalized configuration
 6. Absolutely no code generation and no requirement for XML configuration
+
+### Spring RESTFUL SERVICE
+working against the same Controller instance across multiple requests
