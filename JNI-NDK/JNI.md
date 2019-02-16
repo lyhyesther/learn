@@ -17,13 +17,14 @@ typedef jint     jsize;
 # JNI属性
 
 # JNI调用Java层域、方法
+<pre>
 requirements:
-#1、访问的方法必须为public
+1、访问的方法必须为public
 steps:
 1、获取Java 类对象
 2、获取 方法Id 参数1 Java类对象；参数2 方法名称；参数3 方法签名
 3、JNI 调用Java的方法
-<pre>
+
 Java_com_inin_nativego_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject obj) {
