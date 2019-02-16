@@ -44,6 +44,27 @@ Java_com_inin_nativego_MainActivity_stringFromJNI(
 //    std::string hello = "Hello from C++";
     return env->NewStringUTF(achars);
 }
+
+    //获取域ID
+//        env->GetFieldID()
+    //获取域
+//        env->GetIntField() //获取Int 类型的域
+//        env->GetDoubleField()//获取Double类型的域
+//        env->GetShortField()//获取Short类型的域
+//        env->GetObjectField()//获取对象类型的域
+    //获取静态域
+//        env->GetStaticFieldID()//获取静态域ID
+//        env->GetStaticIntField()//获取静态Int类型的域
+//        env->GetStaticObjectField() //获取静态对象类型的域
+
+    //获取方法Id
+//        env->GetMethodID()
+//        env->CallObjectMethod()//调用对象方法
+//        env->CallIntMethod();//调用返回Int类型的方法
+//        env->CallObjectMethod()//调用返回对象类型的方法
+    //调用静态方法
+//        env->CallStaticObjectMethod()调用返回Object类型的静态方法
+//        env->CallStaticIntMethod()//调用返回Int类型的静态方法
 </pre>
 
 
