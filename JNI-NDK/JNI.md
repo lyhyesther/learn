@@ -86,5 +86,19 @@ JNI 调用构造方法
 
 </pre>
 
+# 异常处理
+<pre>
+//    env->ExceptionCheck();
+//    env->ExceptionOccurred();
+//    env->ExceptionDescribe();
+//    env->ExceptionClear();
+</pre>
+
+# 缓存
+局部缓存策略  static 关键字修饰
+函数被多次调用时，只会初始化一次
+全局缓存策略  在全局声明
+与进程的生命周期相同
+
 
 
