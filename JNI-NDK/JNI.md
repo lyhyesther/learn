@@ -65,6 +65,26 @@ Java_com_inin_nativego_MainActivity_stringFromJNI(
     //调用静态方法
 //        env->CallStaticObjectMethod()调用返回Object类型的静态方法
 //        env->CallStaticIntMethod()//调用返回Int类型的静态方法
+
+JNI 调用构造方法
+方法名 "<init>" 方法签名 "()V"
+     
 </pre>
+
+#引用
+局部引用 全局引用 弱全局引用 的创建以及回收
+<pre>
+//        env->NewLocalRef() //创建局部引用
+//        env->NewObject()
+//        env->NewIntArray()
+//        env->NewGlobalRef()//创建全局引用
+//        env->NewWeakGlobalRef()//创建弱全局引用
+
+//        env->DeleteLocalRef()
+//        env->DeleteGlobalRef()
+//        env->DeleteWeakGlobalRef()
+
+</pre>
+
 
 
