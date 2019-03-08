@@ -16,3 +16,7 @@ assert 宏定义：
 所有的函数都接受一个int 型的参数，返回值必须是EOF或者不带符号的char
 
 如果参数c满足了声明的条件，则返回一个非0数（true）,否则返回0 (false)
+
+# C++ Tutorial
+https://www.tutorialspoint.com/cplusplus/index.htm
+
